@@ -1,0 +1,7 @@
+# ignore everything by default
+*
+
+# only include the artifact we need in the image
+!target/jacoco-project-template.jar
+
+!Dockerfile

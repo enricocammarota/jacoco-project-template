@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+
+  jacoco-project-template:
+    build: .
+    restart: always
+    image: local/jacoco-project-template:latest
+    ports:
+      - 8801:8801
